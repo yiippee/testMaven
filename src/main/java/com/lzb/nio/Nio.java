@@ -1,6 +1,7 @@
 package com.lzb.nio;
 
 import cn.hutool.core.thread.ThreadUtil;
+import com.alibaba.excel.constant.ExcelXmlConstants;
 
 import java.io.IOException;
 import java.net.InetSocketAddress;
@@ -31,6 +32,8 @@ import java.util.concurrent.TimeUnit;
  如果有channel在Selector上注册了SelectionKey.OP_WRITE事件，在调用selector.select();时，
  系统会检查内核写缓冲区是否可写（什么时候是不可写的呢，比如缓冲区已满，channel调用了shutdownOutPut等等），
  如果可写，selector.select();立即返回，随后进入key.isWritable()分支。
+
+ https://segmentfault.com/a/1190000017777939
  */
 public class Nio implements Runnable {
     //private Selector selector;
@@ -207,11 +210,25 @@ public class Nio implements Runnable {
         bigBuffer.put(str.getBytes());
         bigBuffer.flip();
 //        ByteBuffer buffer = new ByteBuffer(1024); //200M的Buffer
-        //注册写事件
-        key.interestOps(key.interestOps() | SelectionKey.OP_WRITE);
-        key.interestOps(key.interestOps() & ~SelectionKey.OP_READ);
+//        //注册写事件
+//        key.interestOps(key.interestOps() | SelectionKey.OP_WRITE);
+//        key.interestOps(key.interestOps() & ~SelectionKey.OP_READ);
         //绑定Buffer
-        key.attach(bigBuffer);
+        // key.attach(bigBuffer);
+
+        ByteBuffer buffer = (ByteBuffer) key.attachment();
+        if (buffer != null) {
+            bigBuffer = bigBuffer.put(buffer);
+        }
+
+        // 感觉正确的做法是：先什么都不管，只管发送数据，直到发送缓存区满了，再装载事件
+        try {
+            socketChannel.write(bigBuffer); // 发送是异步的，感觉不需要注册事件
+        } catch (IOException e) {
+            //注册写事件
+            key.interestOps(key.interestOps() | SelectionKey.OP_WRITE);
+            key.interestOps(key.interestOps() & ~SelectionKey.OP_READ);
+        }
     }
 
     private void write(SelectionKey key, Selector selector) throws IOException, ClosedChannelException {

@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ca59e96b-b838-4cf7-b217-6ecafcace1f3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/lzb/nio/Nio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lzb/nio/Nio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/nio/Nio.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/nio/Nio.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/nio/ReadTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/nio/ReadTask.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/nio/WriteTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/nio/WriteTask.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -184,7 +188,7 @@
       <workItem from="1569329496229" duration="615000" />
       <workItem from="1569401120683" duration="214000" />
       <workItem from="1569490383357" duration="3687000" />
-      <workItem from="1569499362410" duration="13759000" />
+      <workItem from="1569499362410" duration="15439000" />
     </task>
     <task id="LOCAL-00001" summary="list stream groudby 用法">
       <created>1569230253976</created>
@@ -207,7 +211,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569584271287</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="nio 的用法">
+      <created>1569584352276</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1569584352276</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -281,13 +292,18 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/lzb/nio/Nio.java</url>
-          <line>205</line>
-          <option name="timeStamp" value="33" />
+          <line>238</line>
+          <option name="timeStamp" value="35" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/lzb/nio/Nio.java</url>
-          <line>221</line>
-          <option name="timeStamp" value="35" />
+          <line>218</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/lzb/nio/Nio.java</url>
+          <line>201</line>
+          <option name="timeStamp" value="37" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
