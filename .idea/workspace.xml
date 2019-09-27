@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ca59e96b-b838-4cf7-b217-6ecafcace1f3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzb/asyncsql/MainTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzb/hutool/DBTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lzb/hutool/HutoolTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lzb/hutool/HutoolTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/lzb/nio/Nio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lzb/nio/Nio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/hutool/HutoolTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/hutool/HutoolTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/nio/Nio.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/nio/Nio.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/nio/ReadTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/nio/ReadTask.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/nio/WriteTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/nio/WriteTask.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -193,7 +184,7 @@
       <workItem from="1569329496229" duration="615000" />
       <workItem from="1569401120683" duration="214000" />
       <workItem from="1569490383357" duration="3687000" />
-      <workItem from="1569499362410" duration="13681000" />
+      <workItem from="1569499362410" duration="13759000" />
     </task>
     <task id="LOCAL-00001" summary="list stream groudby 用法">
       <created>1569230253976</created>
@@ -209,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569329512220</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="nio 的用法">
+      <created>1569584271287</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1569584271287</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -230,7 +228,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="list stream groudby 用法" />
-    <option name="LAST_COMMIT_MESSAGE" value="list stream groudby 用法" />
+    <MESSAGE value="nio 的用法" />
+    <option name="LAST_COMMIT_MESSAGE" value="nio 的用法" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -282,12 +281,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/lzb/nio/Nio.java</url>
-          <line>201</line>
+          <line>205</line>
           <option name="timeStamp" value="33" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/lzb/nio/Nio.java</url>
-          <line>217</line>
+          <line>221</line>
           <option name="timeStamp" value="35" />
         </line-breakpoint>
       </breakpoints>

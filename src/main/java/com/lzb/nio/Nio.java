@@ -27,6 +27,10 @@ import java.util.concurrent.TimeUnit;
  (a) register the channel for OP_WRITE;
  (b) retry the write when the channel becomes writable;
  and (c) deregister the channel for OP_WRITE once the write has completed.
+
+ 如果有channel在Selector上注册了SelectionKey.OP_WRITE事件，在调用selector.select();时，
+ 系统会检查内核写缓冲区是否可写（什么时候是不可写的呢，比如缓冲区已满，channel调用了shutdownOutPut等等），
+ 如果可写，selector.select();立即返回，随后进入key.isWritable()分支。
  */
 public class Nio implements Runnable {
     //private Selector selector;
