@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/src/main/java/com/lzb/xdevelop/nioserver/Notifier.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/lzb/xdevelop/nioserver/Reader.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/lzb/xdevelop/nioserver/Request.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/lzb/xdevelop/nioserver/Server.java" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/lzb/xdevelop/nioserver/ServerHandler.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/lzb/xdevelop/nioserver/Writer.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/lzb/xdevelop/nioserver/event/ServerListener.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/lzb/xdevelop/timeserver/LogHandler.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/lzb/xdevelop/timeserver/Start.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/lzb/xdevelop/timeserver/TimeHandler.java" charset="GBK" />
+  </component>
+</project>

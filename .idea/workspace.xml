@@ -2,11 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ca59e96b-b838-4cf7-b217-6ecafcace1f3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzb/xdevelop/nioserver/Notifier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzb/xdevelop/nioserver/Reader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzb/xdevelop/nioserver/Request.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzb/xdevelop/nioserver/Response.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzb/xdevelop/nioserver/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzb/xdevelop/nioserver/ServerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzb/xdevelop/nioserver/Writer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzb/xdevelop/nioserver/event/EventAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzb/xdevelop/nioserver/event/ServerListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzb/xdevelop/timeserver/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzb/xdevelop/timeserver/LogHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzb/xdevelop/timeserver/Start.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzb/xdevelop/timeserver/TimeHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lzb/nio/Nio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lzb/nio/Nio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/nio/Nio.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/nio/Nio.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/nio/ReadTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/nio/ReadTask.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/nio/WriteTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/nio/WriteTask.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +54,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/nioserver" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/lzb" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -53,16 +63,16 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\testMaven\src\main\java\com\lzb\genericity" />
-      <recent name="E:\testMaven\src\main\java\com\lzb" />
-      <recent name="E:\testMaven\src\main\resources" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\testMaven\src\main\java\com\lzb\mybatis" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.lzb.stream" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\testMaven\src\main\java\com\lzb\mybatis" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\testMaven\src\main\java\com\lzb" />
+      <recent name="E:\testMaven\src\main\java\com\lzb\genericity" />
+      <recent name="E:\testMaven\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -188,7 +198,7 @@
       <workItem from="1569329496229" duration="615000" />
       <workItem from="1569401120683" duration="214000" />
       <workItem from="1569490383357" duration="3687000" />
-      <workItem from="1569499362410" duration="15439000" />
+      <workItem from="1569499362410" duration="15597000" />
     </task>
     <task id="LOCAL-00001" summary="list stream groudby 用法">
       <created>1569230253976</created>
@@ -218,7 +228,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569584352276</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="nio 的用法">
+      <created>1569585979004</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1569585979004</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
