@@ -15,14 +15,6 @@ class Name {
 }
 public class HutoolTest {
     public static void main(String[] args) {
-        Map<Integer, Integer> m = new HashMap<>();
-        Integer r = m.get(null);
-        Name n = new Name();
-        n.setName(r);
-        Integer a = null;
-        Integer b = null;
-        Integer c = a + b;
-
         String str = "[{\"name\": 123}]";
         JSONArray jsonArray = JSONUtil.parseArray(str);
         List<Name> nameList = jsonArray.toList(Name.class);
@@ -30,5 +22,9 @@ public class HutoolTest {
             name.name = 888;
         }
         System.out.println(nameList);
+
+        String str2 = "{\"name\": 123}";
+        JSONObject j = JSONUtil.parseObj(str2);
+        Name n = j.toBean(Name.class);
     }
 }

@@ -2,14 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ca59e96b-b838-4cf7-b217-6ecafcace1f3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzb/event/MainTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzb/event/MyNoAnnotationListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzb/event/MyTestEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzb/event/MyTestEventPubLisher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzb/stream/MainTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzb/stream/OperationLogQO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzb/asyncsql/MainTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzb/hutool/DBTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lzb/hutool/HutoolTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lzb/hutool/HutoolTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lzb/nio/Nio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lzb/nio/Nio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/hutool/HutoolTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/hutool/HutoolTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/nio/Nio.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/nio/Nio.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/nio/ReadTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/nio/ReadTask.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/nio/WriteTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/nio/WriteTask.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +49,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/lzb" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/nioserver" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -56,12 +58,16 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\testMaven\src\main\java\com\lzb\mybatis" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\testMaven\src\main\java\com\lzb\genericity" />
       <recent name="E:\testMaven\src\main\java\com\lzb" />
       <recent name="E:\testMaven\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.lzb.stream" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\testMaven\src\main\java\com\lzb\mybatis" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -76,13 +82,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MainTest (2)">
-    <configuration name="HashTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lzb.hash.HashTest" />
+  <component name="RunManager" selected="Application.Nio">
+    <configuration name="DBTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lzb.hutool.DBTest" />
       <module name="testMaven" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lzb.hash.*" />
+          <option name="PATTERN" value="com.lzb.hutool.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,38 +109,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lzb.event.MainTest" />
-      <module name="testMaven" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.lzb.event.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainTest (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lzb.stream.MainTest" />
-      <module name="testMaven" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.lzb.stream.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MainTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lzb.orikaTest.MainTest" />
+      <option name="MAIN_CLASS_NAME" value="com.lzb.asyncsql.MainTest" />
       <module name="testMaven" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lzb.orikaTest.*" />
+          <option name="PATTERN" value="com.lzb.asyncsql.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Nio" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lzb.nio.Nio" />
+      <module name="testMaven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lzb.nio.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestDifferenceBetweenObjectAndT" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lzb.genericity.TestDifferenceBetweenObjectAndT" />
+      <module name="testMaven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lzb.genericity.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MainTest (2)" />
-        <item itemvalue="Application.MainTest (1)" />
+        <item itemvalue="Application.Nio" />
         <item itemvalue="Application.MainTest" />
         <item itemvalue="Application.HutoolTest" />
-        <item itemvalue="Application.HashTest" />
+        <item itemvalue="Application.DBTest" />
+        <item itemvalue="Application.TestDifferenceBetweenObjectAndT" />
       </list>
     </recent_temporary>
   </component>
@@ -182,8 +188,28 @@
       <workItem from="1568967914172" duration="470000" />
       <workItem from="1568971397281" duration="3015000" />
       <workItem from="1569212282099" duration="2604000" />
-      <workItem from="1569228106552" duration="2076000" />
+      <workItem from="1569228106552" duration="3396000" />
+      <workItem from="1569291850649" duration="5408000" />
+      <workItem from="1569329496229" duration="615000" />
+      <workItem from="1569401120683" duration="214000" />
+      <workItem from="1569490383357" duration="3687000" />
+      <workItem from="1569499362410" duration="13681000" />
     </task>
+    <task id="LOCAL-00001" summary="list stream groudby 用法">
+      <created>1569230253976</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1569230253977</updated>
+    </task>
+    <task id="LOCAL-00002" summary="list stream groudby 用法">
+      <created>1569329512220</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1569329512220</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -194,20 +220,21 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="list stream groudby 用法" />
+    <option name="LAST_COMMIT_MESSAGE" value="list stream groudby 用法" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/lzb/nio/Nio.java</url>
-          <line>212</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/lzb/mybatis/MyBatisTest.java</url>
           <line>22</line>
@@ -217,26 +244,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/lzb/mybatis/MyBatisTest.java</url>
           <line>15</line>
           <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/lzb/hutool/HutoolTest.java</url>
-          <line>25</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/lzb/hutool/HutoolTest.java</url>
-          <line>31</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/lzb/hutool/HutoolTest.java</url>
-          <line>21</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/lzb/hutool/HutoolTest.java</url>
-          <line>18</line>
-          <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/lzb/orikaTest/MainTest.java</url>
@@ -252,6 +259,36 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/lzb/event/MainTest.java</url>
           <line>9</line>
           <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/lzb/genericity/TestDifferenceBetweenObjectAndT.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/cn/hutool/hutool-all/4.6.3/hutool-all-4.6.3-sources.jar!/cn/hutool/db/ds/DSFactory.java</url>
+          <line>147</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/lzb/hutool/DBTest.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/lzb/asyncsql/MainTest.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/lzb/nio/Nio.java</url>
+          <line>201</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/lzb/nio/Nio.java</url>
+          <line>217</line>
+          <option name="timeStamp" value="35" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

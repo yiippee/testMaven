@@ -122,5 +122,11 @@
             <version>1.5.4</version>
         </dependency>
 
+        <!-- mysql -->
+        <dependency>
+            <groupId>com.github.jasync-sql</groupId>
+            <artifactId>jasync-mysql</artifactId>
+            <version>1.0.7</version>
+        </dependency>
     </dependencies>
 </project>

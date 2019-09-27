@@ -22,6 +22,11 @@ import java.util.concurrent.TimeUnit;
 
 类似地,不需要在单独的线程中写入.只要你有写东西就写.
 
+
+ You should just write. If write() returns zero, then you should
+ (a) register the channel for OP_WRITE;
+ (b) retry the write when the channel becomes writable;
+ and (c) deregister the channel for OP_WRITE once the write has completed.
  */
 public class Nio implements Runnable {
     //private Selector selector;
@@ -44,6 +49,7 @@ public class Nio implements Runnable {
 
     private ByteBuffer sendBuffer = ByteBuffer.allocate(1024);//调整缓存的大小可以看到打印输出的变化
     private ByteBuffer readBuffer = ByteBuffer.allocate(10);
+    private ByteBuffer bigBuffer = ByteBuffer.allocate(1024*1024*10);
     String str;
     ThreadPoolExecutor executor;
 
@@ -70,11 +76,11 @@ public class Nio implements Runnable {
 
         // 将通道组织成组,每个组都有自己的选择器和自己的线程,并让所有这些线程都自己读取.
         executor.execute(new Nio());
-        executor.execute(new Nio());
-        executor.execute(new Nio());
-        executor.execute(new Nio());
-        executor.execute(new Nio());
-        executor.execute(new Nio());
+//        executor.execute(new Nio());
+//        executor.execute(new Nio());
+//        executor.execute(new Nio());
+//        executor.execute(new Nio());
+//        executor.execute(new Nio());
         ThreadUtil.sleep(1000*100);
 //        while (!Thread.currentThread().isInterrupted()) {
 //            selector.select();
@@ -137,6 +143,7 @@ public class Nio implements Runnable {
                         keyIterator.remove(); // 该事件已经处理，可以丢弃
                     }
                 } catch (Exception e) {
+                    e.printStackTrace();
                 }
             }
         } catch (Exception e){
@@ -171,20 +178,67 @@ public class Nio implements Runnable {
         }
 
         str = new String(readBuffer.array(), 0, numRead);
-        System.out.println("read: " + str);
-        socketChannel.register(selector, SelectionKey.OP_WRITE);
-    }
+        System.out.println("read: " + str + " thread:" + Thread.currentThread().getId());
+        // socketChannel.register(selector, SelectionKey.OP_WRITE);
 
-    private void write(SelectionKey key, Selector selector) throws IOException, ClosedChannelException {
-        SocketChannel channel = (SocketChannel) key.channel();
-        str = "123\n";
+
+        str = "reader write...\n";
         // System.out.println("write:"+str);
 
         sendBuffer.clear();
         sendBuffer.put(str.getBytes());
         sendBuffer.flip();
-        channel.write(sendBuffer);
-        channel.register(selector, SelectionKey.OP_READ);
+        //socketChannel.write(sendBuffer);
+
+        // 新增写事件
+        key.interestOps(key.interestOps() | SelectionKey.OP_WRITE);
+        str = "";
+        for (int i = 0; i < 1000 * 100; i++) {
+            str = str + i;
+        }
+        str = str + "\n";
+
+        System.out.println(str.length());
+        bigBuffer.clear();
+        bigBuffer.put(str.getBytes());
+        bigBuffer.flip();
+//        ByteBuffer buffer = new ByteBuffer(1024); //200M的Buffer
+        //注册写事件
+        key.interestOps(key.interestOps() | SelectionKey.OP_WRITE);
+        key.interestOps(key.interestOps() & ~SelectionKey.OP_READ);
+        //绑定Buffer
+        key.attach(bigBuffer);
+    }
+
+    private void write(SelectionKey key, Selector selector) throws IOException, ClosedChannelException {
+        SocketChannel channel = (SocketChannel) key.channel();
+
+        // System.out.println("write:"+str);
+        //isWritable分支
+        if(key.isWritable()) {
+            ByteBuffer buffer = (ByteBuffer) key.attachment();
+            // SocketChannel channel = (SocketChannel) key.channel();
+            if (buffer.hasRemaining()) {
+                channel.write(buffer);
+            } else {
+                //发送完了就取消写事件，否则下次还会进入该分支
+                key.interestOps(key.interestOps() & ~SelectionKey.OP_WRITE);
+                key.interestOps(key.interestOps() | SelectionKey.OP_READ);
+            }
+        }
+
+        ByteBuffer buffer = (ByteBuffer) key.attachment();
+//        sendBuffer.clear();
+//        sendBuffer.put(str.getBytes());
+//        sendBuffer.flip();
+//        channel.write(sendBuffer);
+
+        // channel.register(selector, SelectionKey.OP_READ);
+
+        // key.interestOps(SelectionKey.OP_READ);
+
+        // 取消写事件
+        //key.interestOps(key.interestOps() & ~SelectionKey.OP_WRITE);
     }
 }
 
