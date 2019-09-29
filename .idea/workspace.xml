@@ -2,21 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ca59e96b-b838-4cf7-b217-6ecafcace1f3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzb/xdevelop/nioserver/Notifier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzb/xdevelop/nioserver/Reader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzb/xdevelop/nioserver/Request.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzb/xdevelop/nioserver/Response.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzb/xdevelop/nioserver/Server.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzb/xdevelop/nioserver/ServerHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzb/xdevelop/nioserver/Writer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzb/xdevelop/nioserver/event/EventAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzb/xdevelop/nioserver/event/ServerListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzb/xdevelop/timeserver/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzb/xdevelop/timeserver/LogHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzb/xdevelop/timeserver/Start.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzb/xdevelop/timeserver/TimeHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzb/asyncHttpClient/SimpleHttpAsyncClientDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzb/checkEx/CheckEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzb/feign/MainTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzb/feign/RemoteService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lzb/stream/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lzb/stream/MainTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,6 +19,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -54,12 +47,12 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/lzb" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/fakeWarehouse/target/fakeWarehouse.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
@@ -87,13 +80,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Nio">
-    <configuration name="DBTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lzb.hutool.DBTest" />
+  <component name="RunManager" selected="Application.MainTest (2)">
+    <configuration name="CheckEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lzb.checkEx.CheckEx" />
       <module name="testMaven" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lzb.hutool.*" />
+          <option name="PATTERN" value="com.lzb.checkEx.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HutoolTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lzb.hutool.HutoolTest" />
+    <configuration name="MainTest (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lzb.stream.MainTest" />
       <module name="testMaven" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lzb.hutool.*" />
+          <option name="PATTERN" value="com.lzb.stream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lzb.asyncsql.MainTest" />
+    <configuration name="MainTest (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lzb.feign.MainTest" />
       <module name="testMaven" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lzb.asyncsql.*" />
+          <option name="PATTERN" value="com.lzb.feign.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,12 +120,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Nio" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lzb.nio.Nio" />
+    <configuration name="SimpleHttpAsyncClientDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lzb.asyncHttpClient.SimpleHttpAsyncClientDemo" />
       <module name="testMaven" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lzb.nio.*" />
+          <option name="PATTERN" value="com.lzb.asyncHttpClient.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,12 +133,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestDifferenceBetweenObjectAndT" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lzb.genericity.TestDifferenceBetweenObjectAndT" />
+    <configuration name="SimpleHttpClientDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lzb.asyncHttpClient.SimpleHttpClientDemo" />
       <module name="testMaven" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lzb.genericity.*" />
+          <option name="PATTERN" value="com.lzb.asyncHttpClient.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -155,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Nio" />
-        <item itemvalue="Application.MainTest" />
-        <item itemvalue="Application.HutoolTest" />
-        <item itemvalue="Application.DBTest" />
-        <item itemvalue="Application.TestDifferenceBetweenObjectAndT" />
+        <item itemvalue="Application.MainTest (2)" />
+        <item itemvalue="Application.CheckEx" />
+        <item itemvalue="Application.SimpleHttpAsyncClientDemo" />
+        <item itemvalue="Application.SimpleHttpClientDemo" />
+        <item itemvalue="Application.MainTest (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -198,7 +191,10 @@
       <workItem from="1569329496229" duration="615000" />
       <workItem from="1569401120683" duration="214000" />
       <workItem from="1569490383357" duration="3687000" />
-      <workItem from="1569499362410" duration="15597000" />
+      <workItem from="1569499362410" duration="16894000" />
+      <workItem from="1569660536525" duration="2888000" />
+      <workItem from="1569743855566" duration="2322000" />
+      <workItem from="1569754719677" duration="1019000" />
     </task>
     <task id="LOCAL-00001" summary="list stream groudby 用法">
       <created>1569230253976</created>
@@ -235,7 +231,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569585979004</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="新增一个imb的例子，单线程accept，多线程执行处理工作，不一定是最佳的">
+      <created>1569586180179</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1569586180179</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -257,7 +260,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="list stream groudby 用法" />
     <MESSAGE value="nio 的用法" />
-    <option name="LAST_COMMIT_MESSAGE" value="nio 的用法" />
+    <MESSAGE value="新增一个imb的例子，单线程accept，多线程执行处理工作，不一定是最佳的" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增一个imb的例子，单线程accept，多线程执行处理工作，不一定是最佳的" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -321,6 +325,66 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/lzb/nio/Nio.java</url>
           <line>201</line>
           <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/lzb/stream/MainTest.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/lzb/feign/MainTest.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/lzb/asyncHttpClient/SimpleHttpAsyncClientDemo.java</url>
+          <line>117</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/lzb/asyncHttpClient/SimpleHttpAsyncClientDemo.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/lzb/asyncHttpClient/SimpleHttpAsyncClientDemo.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/lzb/asyncHttpClient/SimpleHttpAsyncClientDemo.java</url>
+          <line>299</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/lzb/asyncHttpClient/SimpleHttpAsyncClientDemo.java</url>
+          <line>196</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/lzb/asyncHttpClient/SimpleHttpAsyncClientDemo.java</url>
+          <line>202</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/lzb/checkEx/CheckEx.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/lzb/checkEx/CheckEx.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/lzb/checkEx/CheckEx.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/lzb/stream/MainTest.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="51" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

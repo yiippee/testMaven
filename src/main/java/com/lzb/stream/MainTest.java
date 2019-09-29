@@ -1,13 +1,23 @@
 package com.lzb.stream;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Map;
+import cn.hutool.json.JSON;
+
+import java.util.*;
 import java.util.stream.Collectors;
 
 public class MainTest {
     public static void main(String[] args) {
+        List<String> keys = Arrays.asList("颜色", "size", "其他");
+        List<String> vals = Arrays.asList("白色", "S", "xxx");
+        Map<String, String> map = new HashMap<>();
+        for (int i = 0; i < keys.size(); i++) {
+            String key = keys.get(i);
+            String val = vals.get(i);
+            map.put(key, val);
+        }
+
+        System.out.println(map); //输出{"a":"aaa","b":"bbb","c":"ccc"}
+
         List<String> myList = Arrays.asList("a1",  "a2", "b1", "c2", "c1");
         myList.stream().filter(s -> s.startsWith("c")).map(String::toUpperCase).sorted().forEach(System.out::println);
         List<OperationLogQO> operationLogQOList = new ArrayList<>();
