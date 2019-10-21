@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ca59e96b-b838-4cf7-b217-6ecafcace1f3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzb/asyncHttpClient/SimpleHttpAsyncClientDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzb/checkEx/CheckEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzb/feign/MainTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzb/feign/RemoteService.java" afterDir="false" />
+    <list default="true" id="ca59e96b-b838-4cf7-b217-6ecafcace1f3" name="Default Changelist" comment="新增一个imb的例子，单线程accept，多线程执行处理工作，不一定是最佳的">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzb/kafka/KafkaTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzb/websocket/WebsocketTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzb/zookeeper/ZookeeperLock.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lzb/stream/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lzb/stream/MainTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lzb/checkEx/CheckEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lzb/checkEx/CheckEx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/checkEx/CheckEx.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/checkEx/CheckEx.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +53,7 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="leetcode.id" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -80,13 +80,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MainTest (2)">
+  <component name="RunManager" selected="Application.WebsocketTest">
     <configuration name="CheckEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.lzb.checkEx.CheckEx" />
       <module name="testMaven" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.lzb.checkEx.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KafkaTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lzb.kafka.KafkaTest" />
+      <module name="testMaven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lzb.kafka.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,12 +120,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainTest (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lzb.feign.MainTest" />
+    <configuration name="MainTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lzb.asyncsql.MainTest" />
       <module name="testMaven" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lzb.feign.*" />
+          <option name="PATTERN" value="com.lzb.asyncsql.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,25 +133,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleHttpAsyncClientDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lzb.asyncHttpClient.SimpleHttpAsyncClientDemo" />
+    <configuration name="WebsocketTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lzb.websocket.WebsocketTest" />
       <module name="testMaven" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lzb.asyncHttpClient.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SimpleHttpClientDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lzb.asyncHttpClient.SimpleHttpClientDemo" />
-      <module name="testMaven" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.lzb.asyncHttpClient.*" />
+          <option name="PATTERN" value="com.lzb.websocket.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WebsocketTest" />
+        <item itemvalue="Application.KafkaTest" />
+        <item itemvalue="Application.MainTest" />
         <item itemvalue="Application.MainTest (2)" />
         <item itemvalue="Application.CheckEx" />
-        <item itemvalue="Application.SimpleHttpAsyncClientDemo" />
-        <item itemvalue="Application.SimpleHttpClientDemo" />
-        <item itemvalue="Application.MainTest (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -194,7 +194,14 @@
       <workItem from="1569499362410" duration="16894000" />
       <workItem from="1569660536525" duration="2888000" />
       <workItem from="1569743855566" duration="2322000" />
-      <workItem from="1569754719677" duration="1019000" />
+      <workItem from="1569754719677" duration="1052000" />
+      <workItem from="1570348477046" duration="337000" />
+      <workItem from="1570353649299" duration="268000" />
+      <workItem from="1571214869629" duration="1700000" />
+      <workItem from="1571240437789" duration="2433000" />
+      <workItem from="1571297285162" duration="2015000" />
+      <workItem from="1571369715866" duration="4141000" />
+      <workItem from="1571648399436" duration="3210000" />
     </task>
     <task id="LOCAL-00001" summary="list stream groudby 用法">
       <created>1569230253976</created>
@@ -367,24 +374,24 @@
           <option name="timeStamp" value="45" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/lzb/checkEx/CheckEx.java</url>
-          <line>7</line>
-          <option name="timeStamp" value="48" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/lzb/checkEx/CheckEx.java</url>
-          <line>11</line>
-          <option name="timeStamp" value="49" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/lzb/checkEx/CheckEx.java</url>
-          <line>9</line>
-          <option name="timeStamp" value="50" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/lzb/stream/MainTest.java</url>
           <line>18</line>
           <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/lzb/websocket/WebsocketTest.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/lzb/websocket/WebsocketTest.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/lzb/websocket/WebsocketTest.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="62" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
