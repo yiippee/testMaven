@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ca59e96b-b838-4cf7-b217-6ecafcace1f3" name="Default Changelist" comment="新增一个imb的例子，单线程accept，多线程执行处理工作，不一定是最佳的">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzb/kafka/KafkaTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzb/websocket/WebsocketTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzb/zookeeper/ZookeeperLock.java" afterDir="false" />
+    <list default="true" id="ca59e96b-b838-4cf7-b217-6ecafcace1f3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lzb/checkEx/CheckEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lzb/checkEx/CheckEx.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/checkEx/CheckEx.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/checkEx/CheckEx.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lzb/test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lzb/test/Test.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -201,7 +196,12 @@
       <workItem from="1571240437789" duration="2433000" />
       <workItem from="1571297285162" duration="2015000" />
       <workItem from="1571369715866" duration="4141000" />
-      <workItem from="1571648399436" duration="3210000" />
+      <workItem from="1571648399436" duration="5346000" />
+      <workItem from="1571714983088" duration="6000" />
+      <workItem from="1574048782562" duration="2587000" />
+      <workItem from="1574528401582" duration="26000" />
+      <workItem from="1574528501591" duration="737000" />
+      <workItem from="1576122808217" duration="313000" />
     </task>
     <task id="LOCAL-00001" summary="list stream groudby 用法">
       <created>1569230253976</created>
@@ -245,7 +245,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569586180179</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="websocket例子&#10;kafka例子&#10;zookeeper锁实现">
+      <created>1571651965017</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1571651965017</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -268,7 +275,8 @@
     <MESSAGE value="list stream groudby 用法" />
     <MESSAGE value="nio 的用法" />
     <MESSAGE value="新增一个imb的例子，单线程accept，多线程执行处理工作，不一定是最佳的" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增一个imb的例子，单线程accept，多线程执行处理工作，不一定是最佳的" />
+    <MESSAGE value="websocket例子&#10;kafka例子&#10;zookeeper锁实现" />
+    <option name="LAST_COMMIT_MESSAGE" value="websocket例子&#10;kafka例子&#10;zookeeper锁实现" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
