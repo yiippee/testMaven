@@ -1,11 +1,79 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="ca59e96b-b838-4cf7-b217-6ecafcace1f3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzb/fastJson/FastJsonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzb/json/FastJsonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzb/test/Apple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzb/util/UtilTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lzb/genericity/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lzb/genericity/MainTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lzb/hash/HashTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lzb/hash/HashTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/lzb/test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lzb/test/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/testMaven.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/testMaven.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/asyncHttpClient/SimpleHttpAsyncClientDemo$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/asyncHttpClient/SimpleHttpAsyncClientDemo$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/asyncHttpClient/SimpleHttpAsyncClientDemo$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/asyncHttpClient/SimpleHttpAsyncClientDemo$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/asyncHttpClient/SimpleHttpAsyncClientDemo$AsyncHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/asyncHttpClient/SimpleHttpAsyncClientDemo$AsyncHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/asyncHttpClient/SimpleHttpAsyncClientDemo$IHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/asyncHttpClient/SimpleHttpAsyncClientDemo$IHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/asyncHttpClient/SimpleHttpAsyncClientDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/asyncHttpClient/SimpleHttpAsyncClientDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/asyncsql/MainTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/asyncsql/MainTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/cglibTest/CglibTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/cglibTest/CglibTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/cglibTest/DynamicBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/cglibTest/DynamicBean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/checkEx/CheckEx.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/checkEx/CheckEx.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/es/ESTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/es/ESTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/event/MainTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/event/MainTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/event/MyNoAnnotationListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/event/MyNoAnnotationListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/event/MyTestEvent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/event/MyTestEvent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/event/MyTestEventPubLisher.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/event/MyTestEventPubLisher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/feign/MainTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/feign/MainTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/feign/RemoteService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/feign/RemoteService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/fileTest/FileTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/fileTest/FileTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/genericity/Apple.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/genericity/Apple.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/genericity/Banana.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/genericity/Banana.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/genericity/Box.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/genericity/Box.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/genericity/Fruit.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/genericity/Fruit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/genericity/MainTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/genericity/MainTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/genericity/TestDifferenceBetweenObjectAndT.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/genericity/TestDifferenceBetweenObjectAndT.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/hash/HashTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/hash/HashTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/hutool/DBTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/hutool/DBTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/hutool/HutoolTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/hutool/HutoolTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/hutool/Name.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/hutool/Name.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/mybatis/MyBatisTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/mybatis/MyBatisTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/nio/Nio.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/nio/Nio.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/nio/ReadTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/nio/ReadTask.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/nio/WriteTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/nio/WriteTask.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/orikaTest/MainTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/orikaTest/MainTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/orikaTest/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/orikaTest/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/orikaTest/UserA.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/orikaTest/UserA.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/stream/MainTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/stream/MainTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/stream/OperationLogQO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/stream/OperationLogQO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/stream/OperationLogQO2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/stream/OperationLogQO2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/test/Test$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/test/Test$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/test/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/test/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/thread/MyTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/thread/MyTask.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/thread/MyThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/thread/MyThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/xdevelop/nioserver/Notifier.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/xdevelop/nioserver/Notifier.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/xdevelop/nioserver/Reader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/xdevelop/nioserver/Reader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/xdevelop/nioserver/Request.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/xdevelop/nioserver/Request.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/xdevelop/nioserver/Response.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/xdevelop/nioserver/Response.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/xdevelop/nioserver/Server.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/xdevelop/nioserver/Server.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/xdevelop/nioserver/ServerHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/xdevelop/nioserver/ServerHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/xdevelop/nioserver/Writer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/xdevelop/nioserver/Writer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/xdevelop/nioserver/event/EventAdapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/xdevelop/nioserver/event/EventAdapter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/xdevelop/nioserver/event/ServerListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/xdevelop/nioserver/event/ServerListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/xdevelop/timeserver/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/xdevelop/timeserver/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/xdevelop/timeserver/LogHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/xdevelop/timeserver/LogHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/xdevelop/timeserver/Start.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/xdevelop/timeserver/Start.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/xdevelop/timeserver/TimeHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/xdevelop/timeserver/TimeHandler.class" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +83,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Kotlin Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -22,33 +91,53 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="KubernetesApiPersistence">
+    <option name="context" value="docker-desktop" />
+    <option name="namespace" value="default" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="localRepository" value="E:\aliyun\repos" />
-        <option name="userSettingsFile" value="C:\Users\Administrator\.m2\settings.xml" />
+        <option name="userSettingsFile" value="C:\Users\lzb\.m2\aliyun\settings.xml" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
       <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
         <option name="vmOptionsForImporter" value="-Xms1024m -Xmx2048m" />
       </MavenImportingSettings>
     </option>
   </component>
   <component name="ProjectId" id="1Q0Fm7n7wnjgd1bK9RE0X3IwQ5i" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="format.on.save" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/fakeWarehouse/target/fakeWarehouse.jar!/" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Libraries" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="leetcode.id" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="actions.on.save" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -63,25 +152,13 @@
       <recent name="E:\testMaven\src\main\resources" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.WebsocketTest">
-    <configuration name="CheckEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lzb.checkEx.CheckEx" />
+  <component name="RunManager" selected="Application.FastJsonTest">
+    <configuration name="FastJsonTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lzb.fastJson.FastJsonTest" />
       <module name="testMaven" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lzb.checkEx.*" />
+          <option name="PATTERN" value="com.lzb.fastJson.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,12 +166,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KafkaTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lzb.kafka.KafkaTest" />
+    <configuration name="MainTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lzb.genericity.MainTest" />
       <module name="testMaven" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lzb.kafka.*" />
+          <option name="PATTERN" value="com.lzb.genericity.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,12 +179,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainTest (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lzb.stream.MainTest" />
+    <configuration name="MammalInt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lzb.Animal.MammalInt" />
       <module name="testMaven" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lzb.stream.*" />
+          <option name="PATTERN" value="com.lzb.Animal.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,12 +192,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lzb.asyncsql.MainTest" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lzb.test.Test" />
       <module name="testMaven" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lzb.asyncsql.*" />
+          <option name="PATTERN" value="com.lzb.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,12 +205,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WebsocketTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lzb.websocket.WebsocketTest" />
+    <configuration name="UtilTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lzb.util.UtilTest" />
       <module name="testMaven" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lzb.websocket.*" />
+          <option name="PATTERN" value="com.lzb.util.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,14 +220,15 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.WebsocketTest" />
-        <item itemvalue="Application.KafkaTest" />
-        <item itemvalue="Application.MainTest" />
-        <item itemvalue="Application.MainTest (2)" />
-        <item itemvalue="Application.CheckEx" />
+        <item itemvalue="Application.FastJsonTest" />
+        <item itemvalue="Application.UtilTest" />
+        <item itemvalue="Application.MammalInt" />
+        <item itemvalue="Application.MainTest (1)" />
+        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -202,6 +280,14 @@
       <workItem from="1574528401582" duration="26000" />
       <workItem from="1574528501591" duration="737000" />
       <workItem from="1576122808217" duration="313000" />
+      <workItem from="1678774481739" duration="896000" />
+      <workItem from="1679298532453" duration="631000" />
+      <workItem from="1679299191707" duration="686000" />
+      <workItem from="1680593292400" duration="84000" />
+      <workItem from="1680853978876" duration="332000" />
+      <workItem from="1680855758688" duration="2603000" />
+      <workItem from="1681173987664" duration="462000" />
+      <workItem from="1681358176702" duration="8805000" />
     </task>
     <task id="LOCAL-00001" summary="list stream groudby 用法">
       <created>1569230253976</created>
@@ -256,20 +342,19 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="list stream groudby 用法" />
@@ -400,6 +485,31 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/lzb/websocket/WebsocketTest.java</url>
           <line>52</line>
           <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/lzb/test/Test.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/lzb/genericity/MainTest.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/lzb/Animal/Animal.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/lzb/util/UtilTest.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/lzb/fastJson/FastJsonTest.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="77" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

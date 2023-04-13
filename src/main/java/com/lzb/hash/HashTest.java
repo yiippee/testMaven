@@ -1,6 +1,6 @@
 package com.lzb.hash;
 
-import lombok.var;
+// import lombok.var;
 
 import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
