@@ -5,20 +5,42 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ca59e96b-b838-4cf7-b217-6ecafcace1f3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzb/fastJson/FastJsonTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzb/json/FastJsonTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzb/test/Apple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzb/util/UtilTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzb/cglib/CglibTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzb/cglib/LogInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzb/cglib/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzb/dproxy/DProxyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzb/generic/GenericTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzb/guava/GuavaTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzb/json/JsonUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzb/redis/RedisClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzb/redis/RedisClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzb/redis/RedisClientInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzb/redis/lettuce/LettuceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzb/redis/lua/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzb/redis/netty/RedisClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzb/redis/netty/RedisRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzb/redis/netty/RedisResponseListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzb/redis/stream/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzb/sie/Engine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzb/thread/CallableThreadTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzb/wechat/WeChatBotUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application-dev.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/dbcp.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/logback-spring.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lzb/genericity/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lzb/genericity/MainTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lzb/fastJson/FastJsonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lzb/fastJson/FastJsonTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/lzb/hash/HashTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lzb/hash/HashTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lzb/json/FastJsonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lzb/json/FastJsonTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/lzb/test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lzb/test/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/testMaven.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/testMaven.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lzb/util/UtilTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lzb/util/UtilTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/testMaven.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/Animal/Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/Animal/Animal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/Animal/MammalInt.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/Animal/MammalInt.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/asyncHttpClient/SimpleHttpAsyncClientDemo$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/asyncHttpClient/SimpleHttpAsyncClientDemo$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/asyncHttpClient/SimpleHttpAsyncClientDemo$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/asyncHttpClient/SimpleHttpAsyncClientDemo$2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/asyncHttpClient/SimpleHttpAsyncClientDemo$AsyncHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/asyncHttpClient/SimpleHttpAsyncClientDemo$AsyncHandler.class" afterDir="false" />
@@ -46,6 +68,9 @@
       <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/hutool/DBTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/hutool/DBTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/hutool/HutoolTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/hutool/HutoolTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/hutool/Name.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/hutool/Name.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/json/FastJsonTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/json/FastJsonTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/kafka/KafkaTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/kafka/KafkaTest$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/kafka/KafkaTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/kafka/KafkaTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/mybatis/MyBatisTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/mybatis/MyBatisTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/nio/Nio.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/nio/Nio.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/nio/ReadTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/nio/ReadTask.class" afterDir="false" />
@@ -56,10 +81,15 @@
       <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/stream/MainTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/stream/MainTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/stream/OperationLogQO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/stream/OperationLogQO.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/stream/OperationLogQO2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/stream/OperationLogQO2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/test/Test$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/test/Test$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/test/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/test/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/test/Apple.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/test/Apple.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/test/Md5Utils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/test/Test$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/test/Test.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/thread/MyTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/thread/MyTask.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/thread/MyThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/thread/MyThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/util/UtilTest$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/util/UtilTest$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/util/UtilTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/util/UtilTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/websocket/WebsocketTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/websocket/WebsocketTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/xdevelop/nioserver/Notifier.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/xdevelop/nioserver/Notifier.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/xdevelop/nioserver/Reader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/xdevelop/nioserver/Reader.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/xdevelop/nioserver/Request.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/xdevelop/nioserver/Request.class" afterDir="false" />
@@ -73,6 +103,14 @@
       <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/xdevelop/timeserver/LogHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/xdevelop/timeserver/LogHandler.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/xdevelop/timeserver/Start.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/xdevelop/timeserver/Start.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/xdevelop/timeserver/TimeHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/xdevelop/timeserver/TimeHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/zookeeper/LockAddrChangedCallback.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/zookeeper/LockAddrChangedCallback.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/zookeeper/ZookeeperLock$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/zookeeper/ZookeeperLock$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/zookeeper/ZookeeperLock$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/zookeeper/ZookeeperLock$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/zookeeper/ZookeeperLock$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/zookeeper/ZookeeperLock$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/zookeeper/ZookeeperLock$State.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/zookeeper/ZookeeperLock$State.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/zookeeper/ZookeeperLock.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/zookeeper/ZookeeperLock.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,6 +122,7 @@
       <list>
         <option value="Interface" />
         <option value="Kotlin Interface" />
+        <option value="Kotlin Class" />
         <option value="Class" />
       </list>
     </option>
@@ -98,6 +137,17 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="922881d5-f496-40d7-894e-6ba5fbafa159" />
+        <option name="url" value="https://github.com/yiippee/testMaven.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="KubernetesApiPersistence">
     <option name="context" value="docker-desktop" />
@@ -122,43 +172,66 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="format.on.save" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/fakeWarehouse/target/fakeWarehouse.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="project.structure.side.proportion" value="0.35863873" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="actions.on.save" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\testMaven\src\main\java\com\lzb\mybatis" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.lzb.stream" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\java\testMaven\src\main\resources" />
       <recent name="E:\testMaven\src\main\java\com\lzb" />
       <recent name="E:\testMaven\src\main\java\com\lzb\genericity" />
       <recent name="E:\testMaven\src\main\resources" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\testMaven\src\main\java\com\lzb\mybatis" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.lzb.json" />
+      <recent name="com.lzb.stream" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.FastJsonTest">
+  <component name="RunManager" selected="Application.GuavaTest">
+    <configuration name="Engine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lzb.sie.Engine" />
+      <module name="testMaven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lzb.sie.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FastJsonTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lzb.fastJson.FastJsonTest" />
+      <option name="MAIN_CLASS_NAME" value="com.lzb.json.FastJsonTest" />
       <module name="testMaven" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lzb.fastJson.*" />
+          <option name="PATTERN" value="com.lzb.json.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -166,12 +239,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lzb.genericity.MainTest" />
+    <configuration name="GuavaTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lzb.guava.GuavaTest" />
       <module name="testMaven" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lzb.genericity.*" />
+          <option name="PATTERN" value="com.lzb.guava.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -179,25 +252,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MammalInt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lzb.Animal.MammalInt" />
+    <configuration name="LettuceTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lzb.redis.lettuce.LettuceTest" />
       <module name="testMaven" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lzb.Animal.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lzb.test.Test" />
-      <module name="testMaven" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.lzb.test.*" />
+          <option name="PATTERN" value="com.lzb.redis.lettuce.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -218,13 +278,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.UtilTest" />
+      <item itemvalue="Application.Engine" />
+      <item itemvalue="Application.LettuceTest" />
+      <item itemvalue="Application.FastJsonTest" />
+      <item itemvalue="Application.GuavaTest" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GuavaTest" />
         <item itemvalue="Application.FastJsonTest" />
         <item itemvalue="Application.UtilTest" />
-        <item itemvalue="Application.MammalInt" />
-        <item itemvalue="Application.MainTest (1)" />
-        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.LettuceTest" />
+        <item itemvalue="Application.Engine" />
       </list>
     </recent_temporary>
   </component>
@@ -287,7 +354,50 @@
       <workItem from="1680853978876" duration="332000" />
       <workItem from="1680855758688" duration="2603000" />
       <workItem from="1681173987664" duration="462000" />
-      <workItem from="1681358176702" duration="8805000" />
+      <workItem from="1681358176702" duration="16434000" />
+      <workItem from="1681442042587" duration="539000" />
+      <workItem from="1681457904463" duration="2340000" />
+      <workItem from="1681528235192" duration="1690000" />
+      <workItem from="1681531996013" duration="7710000" />
+      <workItem from="1681637099981" duration="592000" />
+      <workItem from="1681639334005" duration="4118000" />
+      <workItem from="1681691930697" duration="595000" />
+      <workItem from="1681700076893" duration="5506000" />
+      <workItem from="1681711304892" duration="16740000" />
+      <workItem from="1682211379175" duration="444000" />
+      <workItem from="1682212435410" duration="621000" />
+      <workItem from="1682315956762" duration="2769000" />
+      <workItem from="1682324683637" duration="10421000" />
+      <workItem from="1682408200137" duration="512000" />
+      <workItem from="1682409420718" duration="712000" />
+      <workItem from="1682475515184" duration="854000" />
+      <workItem from="1682476562064" duration="2561000" />
+      <workItem from="1682497261452" duration="6000" />
+      <workItem from="1682498616960" duration="654000" />
+      <workItem from="1682818710958" duration="1911000" />
+      <workItem from="1682990046999" duration="1194000" />
+      <workItem from="1683161220969" duration="166000" />
+      <workItem from="1683178330967" duration="306000" />
+      <workItem from="1683359770564" duration="631000" />
+      <workItem from="1683360422217" duration="234000" />
+      <workItem from="1683711038523" duration="180000" />
+      <workItem from="1683711233809" duration="3026000" />
+      <workItem from="1683766391042" duration="74000" />
+      <workItem from="1685932215249" duration="979000" />
+      <workItem from="1685933629029" duration="343000" />
+      <workItem from="1686279325847" duration="1424000" />
+      <workItem from="1686282655407" duration="290000" />
+      <workItem from="1686290625756" duration="2262000" />
+      <workItem from="1686636411025" duration="5444000" />
+      <workItem from="1686724559242" duration="156000" />
+      <workItem from="1686731065251" duration="4463000" />
+      <workItem from="1686801315745" duration="96000" />
+      <workItem from="1687252347658" duration="61066000" />
+      <workItem from="1687328479891" duration="119000" />
+      <workItem from="1687329403273" duration="34000" />
+      <workItem from="1687331164574" duration="1623000" />
+      <workItem from="1688086535731" duration="5150000" />
+      <workItem from="1688374535815" duration="2094000" />
     </task>
     <task id="LOCAL-00001" summary="list stream groudby 用法">
       <created>1569230253976</created>
@@ -338,7 +448,21 @@
       <option name="project" value="LOCAL" />
       <updated>1571651965017</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary=" test">
+      <created>1681374017737</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1681374017737</updated>
+    </task>
+    <task id="LOCAL-00009" summary=" test">
+      <created>1681374032867</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1681374032867</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -349,7 +473,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -361,7 +497,8 @@
     <MESSAGE value="nio 的用法" />
     <MESSAGE value="新增一个imb的例子，单线程accept，多线程执行处理工作，不一定是最佳的" />
     <MESSAGE value="websocket例子&#10;kafka例子&#10;zookeeper锁实现" />
-    <option name="LAST_COMMIT_MESSAGE" value="websocket例子&#10;kafka例子&#10;zookeeper锁实现" />
+    <MESSAGE value=" test" />
+    <option name="LAST_COMMIT_MESSAGE" value=" test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -503,15 +640,145 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/lzb/util/UtilTest.java</url>
-          <line>52</line>
-          <option name="timeStamp" value="74" />
+          <line>103</line>
+          <option name="timeStamp" value="78" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/lzb/generic/GenericTest.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="79" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/lzb/classTest/ClassTest.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="82" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/lzb/guava/GuavaTest.java</url>
+          <line>92</line>
+          <option name="timeStamp" value="83" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/lzb/fastJson/FastJsonTest.java</url>
-          <line>7</line>
-          <option name="timeStamp" value="77" />
+          <line>24</line>
+          <option name="timeStamp" value="86" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/lzb/dproxy/DProxyTest.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="87" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/lzb/dproxy/DProxyTest.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="88" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/lzb/redis/lettuce/LettuceTest.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="104" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/redis/clients/jedis/4.3.1/jedis-4.3.1-sources.jar!/redis/clients/jedis/BuilderFactory.java</url>
+          <line>258</line>
+          <option name="timeStamp" value="116" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/lzb/cglib/CglibTest.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="117" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/lzb/util/UtilTest.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="121" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/lzb/wechat/WeChatBotUtils.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="125" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/lzb/sie/Engine.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="126" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/sie/meta/sie-snest-engine/1.0-SNAPSHOT/sie-snest-engine-1.0-SNAPSHOT.jar!/com/sie/snest/engine/pubsub/RedisStream.class</url>
+          <line>60</line>
+          <option name="timeStamp" value="127" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/sie/meta/sie-snest-engine/1.0-SNAPSHOT/sie-snest-engine-1.0-SNAPSHOT.jar!/com/sie/snest/engine/pubsub/RedisStream.class</url>
+          <line>83</line>
+          <option name="timeStamp" value="128" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/lzb/sie/Engine.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="129" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/lzb/redis/lettuce/LettuceTest.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="130" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/lzb/redis/lettuce/LettuceTest.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="131" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/io/lettuce/lettuce-core/5.3.6.RELEASE/lettuce-core-5.3.6.RELEASE.jar!/io/lettuce/core/RedisChannelHandler.class</url>
+          <line>115</line>
+          <option name="timeStamp" value="133" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/io/lettuce/lettuce-core/5.3.6.RELEASE/lettuce-core-5.3.6.RELEASE.jar!/io/lettuce/core/RedisChannelHandler.class</url>
+          <line>133</line>
+          <option name="timeStamp" value="134" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/io/lettuce/lettuce-core/5.3.6.RELEASE/lettuce-core-5.3.6.RELEASE-sources.jar!/io/lettuce/core/protocol/CommandHandler.java</url>
+          <line>372</line>
+          <option name="timeStamp" value="135" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/io/lettuce/lettuce-core/5.3.6.RELEASE/lettuce-core-5.3.6.RELEASE-sources.jar!/io/lettuce/core/protocol/CommandHandler.java</url>
+          <line>487</line>
+          <option name="timeStamp" value="136" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/io/lettuce/lettuce-core/5.3.6.RELEASE/lettuce-core-5.3.6.RELEASE-sources.jar!/io/lettuce/core/protocol/CommandHandler.java</url>
+          <line>560</line>
+          <option name="timeStamp" value="137" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/lzb/util/UtilTest.java</url>
+          <line>75</line>
+          <option name="timeStamp" value="138" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/lzb/guava/GuavaTest.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="139" />
+        </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.ExceptionInInitializerError" package="java.lang" />
+          <option name="timeStamp" value="118" />
+        </breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="data.getClass().getName()" language="JAVA" />
+        <watch expression="entry.getClass().getName()" language="JAVA" />
+        <watch expression="test.getClass().getMethod(&quot;Test&quot;, List.class)" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

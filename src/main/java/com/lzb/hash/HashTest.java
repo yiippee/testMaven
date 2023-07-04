@@ -6,8 +6,9 @@ import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
 
 public class HashTest {
-        private static Set<Class<?>> hasAutoWiredBeans =
+    private static Set<Class<?>> hasAutoWiredBeans =
             Collections.synchronizedSet(new HashSet<>());
+
     public static void main(String[] args) {
         var h = new HashMap<String, String>();
         h.put("name", "lizhanbin");
@@ -17,7 +18,5 @@ public class HashTest {
         m.put("name", "lizhanbin");
         name = m.get("name");
         System.out.printf("name: %s", name);
-
-
     }
 }

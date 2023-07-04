@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 配置文件修改时重新加载，默认true -->
+<configuration scan="true">
+
+    <property name="LOG_BASE" value="logs"/>
+
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern><![CDATA[%n[%d{yyyy-MM-dd HH:mm:ss.SSS}] [level: %p] [Thread: %t] [ Class:%c >> Method: %M:%L ]%n%p:%m%n]]></pattern>
+        </encoder>
+    </appender>
+    <appender name="metalogfile" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <encoder>
+            <pattern><![CDATA[%n[%d{yyyy-MM-dd HH:mm:ss.SSS}] [level: %p] [Thread: %t] [ Class:%c >> Method: %M:%L ]%n%p:%m%n]]></pattern>
+        </encoder>
+        <file>${LOG_BASE}/metalogfile.log</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <fileNamePattern>${LOG_BASE}/metalogfile.-%d{yyyyMMdd}.%i.log</fileNamePattern>
+            <!-- 每天一个日志文件，当天的日志文件超过10MB时，生成新的日志文件，当天的日志文件数量超过totalSizeCap/maxFileSize，日志文件就会被回滚覆盖。 -->
+            <maxFileSize>10MB</maxFileSize>
+            <maxHistory>30</maxHistory>
+            <totalSizeCap>10GB</totalSizeCap>
+        </rollingPolicy>
+    </appender>
+
+    <appender name="sqllogfile" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <encoder>
+            <pattern>%d %-5level [%thread] %logger{0}: %msg%n</pattern>
+        </encoder>
+        <file>${LOG_BASE}/sqllogfile.log</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <fileNamePattern>${LOG_BASE}/sqllogfile.-%d{yyyyMMdd}.%i.log</fileNamePattern>
+            <!-- 每天一个日志文件，当天的日志文件超过10MB时，生成新的日志文件，当天的日志文件数量超过totalSizeCap/maxFileSize，日志文件就会被回滚覆盖。 -->
+            <maxFileSize>10MB</maxFileSize>
+            <maxHistory>30</maxHistory>
+            <totalSizeCap>10GB</totalSizeCap>
+        </rollingPolicy>
+    </appender>
+
+    <appender name="businesslogfile" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <encoder>
+            <pattern><![CDATA[%n[%d{yyyy-MM-dd HH:mm:ss.SSS}] [level: %p] [Thread: %t] [ Class:%c >> Method: %M:%L ]%n%p:%m%n]]></pattern>
+        </encoder>
+        <file>${LOG_BASE}/businesslogfile.log</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <fileNamePattern>${LOG_BASE}/businesslogfile.-%d{yyyyMMdd}.%i.log</fileNamePattern>
+            <!-- 每天一个日志文件，当天的日志文件超过10MB时，生成新的日志文件，当天的日志文件数量超过totalSizeCap/maxFileSize，日志文件就会被回滚覆盖。 -->
+            <maxFileSize>10MB</maxFileSize>
+            <maxHistory>30</maxHistory>
+            <totalSizeCap>10GB</totalSizeCap>
+        </rollingPolicy>
+    </appender>
+
+
+    <appender name="LOG_FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <encoder>
+            <pattern><![CDATA[%n[%d{yyyy-MM-dd HH:mm:ss.SSS}] [level: %p] [Thread: %t] [ Class:%c >> Method: %M:%L ]%n%p:%m%n]]></pattern>
+        </encoder>
+        <file>${LOG_BASE}/root.log</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <fileNamePattern>${LOG_BASE}/root.-%d{yyyyMMdd}.%i.log</fileNamePattern>
+            <!-- 每天一个日志文件，当天的日志文件超过10MB时，生成新的日志文件，当天的日志文件数量超过totalSizeCap/maxFileSize，日志文件就会被回滚覆盖。 -->
+            <maxFileSize>10MB</maxFileSize>
+            <maxHistory>30</maxHistory>
+            <totalSizeCap>10GB</totalSizeCap>
+        </rollingPolicy>
+    </appender>
+
+
+    <root level="INFO">
+        <appender-ref ref="STDOUT"/>
+        <appender-ref ref="LOG_FILE"/>
+    </root>
+
+</configuration>
