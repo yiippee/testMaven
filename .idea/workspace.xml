@@ -5,112 +5,85 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ca59e96b-b838-4cf7-b217-6ecafcace1f3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzb/cglib/CglibTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzb/cglib/LogInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzb/cglib/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzb/dproxy/DProxyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzb/generic/GenericTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzb/guava/GuavaTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzb/json/JsonUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzb/redis/RedisClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzb/redis/RedisClientHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzb/redis/RedisClientInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzb/redis/lettuce/LettuceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzb/redis/lua/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzb/redis/netty/RedisClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzb/redis/netty/RedisRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzb/redis/netty/RedisResponseListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzb/redis/stream/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzb/sie/Engine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzb/thread/CallableThreadTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzb/wechat/WeChatBotUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application-dev.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/dbcp.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/logback-spring.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzb/LombokTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lzb/fastJson/FastJsonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lzb/fastJson/FastJsonTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lzb/hash/HashTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lzb/hash/HashTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lzb/json/FastJsonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lzb/json/FastJsonTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lzb/test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lzb/test/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lzb/util/UtilTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lzb/util/UtilTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/testMaven.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/Animal/Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/Animal/Animal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/Animal/MammalInt.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/Animal/MammalInt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/asyncHttpClient/SimpleHttpAsyncClientDemo$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/asyncHttpClient/SimpleHttpAsyncClientDemo$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/asyncHttpClient/SimpleHttpAsyncClientDemo$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/asyncHttpClient/SimpleHttpAsyncClientDemo$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/asyncHttpClient/SimpleHttpAsyncClientDemo$AsyncHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/asyncHttpClient/SimpleHttpAsyncClientDemo$AsyncHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/asyncHttpClient/SimpleHttpAsyncClientDemo$IHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/asyncHttpClient/SimpleHttpAsyncClientDemo$IHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/asyncHttpClient/SimpleHttpAsyncClientDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/asyncHttpClient/SimpleHttpAsyncClientDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/asyncsql/MainTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/asyncsql/MainTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/cglibTest/CglibTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/cglibTest/CglibTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/cglibTest/DynamicBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/cglibTest/DynamicBean.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/checkEx/CheckEx.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/checkEx/CheckEx.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/es/ESTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/es/ESTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/event/MainTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/event/MainTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/event/MyNoAnnotationListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/event/MyNoAnnotationListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/event/MyTestEvent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/event/MyTestEvent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/event/MyTestEventPubLisher.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/event/MyTestEventPubLisher.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/feign/MainTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/feign/MainTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/feign/RemoteService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/feign/RemoteService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/fileTest/FileTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/fileTest/FileTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/genericity/Apple.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/genericity/Apple.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/genericity/Banana.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/genericity/Banana.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/genericity/Box.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/genericity/Box.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/genericity/Fruit.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/genericity/Fruit.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/genericity/MainTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/genericity/MainTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/genericity/TestDifferenceBetweenObjectAndT.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/genericity/TestDifferenceBetweenObjectAndT.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/hash/HashTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/hash/HashTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/hutool/DBTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/hutool/DBTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/hutool/HutoolTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/hutool/HutoolTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/hutool/Name.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/hutool/Name.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/json/FastJsonTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/json/FastJsonTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/kafka/KafkaTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/kafka/KafkaTest$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/kafka/KafkaTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/kafka/KafkaTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/mybatis/MyBatisTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/mybatis/MyBatisTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/nio/Nio.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/nio/Nio.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/nio/ReadTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/nio/ReadTask.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/nio/WriteTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/nio/WriteTask.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/orikaTest/MainTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/orikaTest/MainTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/orikaTest/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/orikaTest/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/orikaTest/UserA.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/orikaTest/UserA.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/stream/MainTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/stream/MainTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/stream/OperationLogQO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/stream/OperationLogQO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/stream/OperationLogQO2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/stream/OperationLogQO2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/test/Apple.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/test/Apple.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/test/Md5Utils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/test/Test$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/test/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/thread/MyTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/thread/MyTask.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/thread/MyThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/thread/MyThread.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/util/UtilTest$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/util/UtilTest$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/util/UtilTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/util/UtilTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/websocket/WebsocketTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/websocket/WebsocketTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/xdevelop/nioserver/Notifier.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/xdevelop/nioserver/Notifier.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/xdevelop/nioserver/Reader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/xdevelop/nioserver/Reader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/xdevelop/nioserver/Request.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/xdevelop/nioserver/Request.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/xdevelop/nioserver/Response.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/xdevelop/nioserver/Response.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/xdevelop/nioserver/Server.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/xdevelop/nioserver/Server.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/xdevelop/nioserver/ServerHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/xdevelop/nioserver/ServerHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/xdevelop/nioserver/Writer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/xdevelop/nioserver/Writer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/xdevelop/nioserver/event/EventAdapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/xdevelop/nioserver/event/EventAdapter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/xdevelop/nioserver/event/ServerListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/xdevelop/nioserver/event/ServerListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/xdevelop/timeserver/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/xdevelop/timeserver/Client.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/xdevelop/timeserver/LogHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/xdevelop/timeserver/LogHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/xdevelop/timeserver/Start.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/xdevelop/timeserver/Start.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/xdevelop/timeserver/TimeHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/xdevelop/timeserver/TimeHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/zookeeper/LockAddrChangedCallback.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/zookeeper/LockAddrChangedCallback.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/zookeeper/ZookeeperLock$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/zookeeper/ZookeeperLock$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/zookeeper/ZookeeperLock$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/zookeeper/ZookeeperLock$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/zookeeper/ZookeeperLock$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/zookeeper/ZookeeperLock$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/zookeeper/ZookeeperLock$State.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/zookeeper/ZookeeperLock$State.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/zookeeper/ZookeeperLock.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lzb/zookeeper/ZookeeperLock.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lzb/json/FastJsonTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lzb/json/JsonUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lzb/redis/lettuce/LettuceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lzb/redis/lua/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lzb/sie/Engine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lzb/test/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lzb/thread/MyThread.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lzb/wechat/WeChatBotUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/Animal/Animal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/Animal/MammalInt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/asyncHttpClient/SimpleHttpAsyncClientDemo$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/asyncHttpClient/SimpleHttpAsyncClientDemo$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/asyncHttpClient/SimpleHttpAsyncClientDemo$AsyncHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/asyncHttpClient/SimpleHttpAsyncClientDemo$IHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/asyncHttpClient/SimpleHttpAsyncClientDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/asyncsql/MainTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/cglibTest/CglibTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/cglibTest/DynamicBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/checkEx/CheckEx.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/es/ESTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/event/MainTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/event/MyNoAnnotationListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/event/MyTestEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/event/MyTestEventPubLisher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/feign/MainTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/feign/RemoteService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/fileTest/FileTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/genericity/Apple.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/genericity/Banana.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/genericity/Box.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/genericity/Fruit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/genericity/MainTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/genericity/TestDifferenceBetweenObjectAndT.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/hash/HashTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/hutool/DBTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/hutool/HutoolTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/hutool/Name.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/json/FastJsonTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/kafka/KafkaTest$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/kafka/KafkaTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/mybatis/MyBatisTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/nio/Nio.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/nio/ReadTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/nio/WriteTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/orikaTest/MainTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/orikaTest/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/orikaTest/UserA.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/stream/MainTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/stream/OperationLogQO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/stream/OperationLogQO2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/test/Apple.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/thread/MyTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/thread/MyThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/util/UtilTest$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/util/UtilTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/websocket/WebsocketTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/xdevelop/nioserver/Notifier.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/xdevelop/nioserver/Reader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/xdevelop/nioserver/Request.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/xdevelop/nioserver/Response.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/xdevelop/nioserver/Server.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/xdevelop/nioserver/ServerHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/xdevelop/nioserver/Writer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/xdevelop/nioserver/event/EventAdapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/xdevelop/nioserver/event/ServerListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/xdevelop/timeserver/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/xdevelop/timeserver/LogHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/xdevelop/timeserver/Start.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/xdevelop/timeserver/TimeHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/zookeeper/LockAddrChangedCallback.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/zookeeper/ZookeeperLock$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/zookeeper/ZookeeperLock$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/zookeeper/ZookeeperLock$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/zookeeper/ZookeeperLock$State.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzb/zookeeper/ZookeeperLock.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -212,20 +185,7 @@
       <recent name="com.lzb.stream" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GuavaTest">
-    <configuration name="Engine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lzb.sie.Engine" />
-      <module name="testMaven" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.lzb.sie.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.TestVThread">
     <configuration name="FastJsonTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.lzb.json.FastJsonTest" />
       <module name="testMaven" />
@@ -265,6 +225,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestVThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lzb.vthread.TestVThread" />
+      <module name="testMaven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lzb.vthread.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="UtilTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.lzb.util.UtilTest" />
       <module name="testMaven" />
@@ -280,18 +253,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.UtilTest" />
-      <item itemvalue="Application.Engine" />
       <item itemvalue="Application.LettuceTest" />
       <item itemvalue="Application.FastJsonTest" />
       <item itemvalue="Application.GuavaTest" />
+      <item itemvalue="Application.TestVThread" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestVThread" />
         <item itemvalue="Application.GuavaTest" />
         <item itemvalue="Application.FastJsonTest" />
         <item itemvalue="Application.UtilTest" />
         <item itemvalue="Application.LettuceTest" />
-        <item itemvalue="Application.Engine" />
       </list>
     </recent_temporary>
   </component>
@@ -624,11 +597,6 @@
           <option name="timeStamp" value="62" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/lzb/test/Test.java</url>
-          <line>12</line>
-          <option name="timeStamp" value="63" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/lzb/genericity/MainTest.java</url>
           <line>4</line>
           <option name="timeStamp" value="64" />
@@ -674,11 +642,6 @@
           <option name="timeStamp" value="88" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/lzb/redis/lettuce/LettuceTest.java</url>
-          <line>35</line>
-          <option name="timeStamp" value="104" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/redis/clients/jedis/4.3.1/jedis-4.3.1-sources.jar!/redis/clients/jedis/BuilderFactory.java</url>
           <line>258</line>
           <option name="timeStamp" value="116" />
@@ -694,16 +657,6 @@
           <option name="timeStamp" value="121" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/lzb/wechat/WeChatBotUtils.java</url>
-          <line>48</line>
-          <option name="timeStamp" value="125" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/lzb/sie/Engine.java</url>
-          <line>30</line>
-          <option name="timeStamp" value="126" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/com/sie/meta/sie-snest-engine/1.0-SNAPSHOT/sie-snest-engine-1.0-SNAPSHOT.jar!/com/sie/snest/engine/pubsub/RedisStream.class</url>
           <line>60</line>
           <option name="timeStamp" value="127" />
@@ -712,21 +665,6 @@
           <url>jar://$MAVEN_REPOSITORY$/com/sie/meta/sie-snest-engine/1.0-SNAPSHOT/sie-snest-engine-1.0-SNAPSHOT.jar!/com/sie/snest/engine/pubsub/RedisStream.class</url>
           <line>83</line>
           <option name="timeStamp" value="128" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/lzb/sie/Engine.java</url>
-          <line>16</line>
-          <option name="timeStamp" value="129" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/lzb/redis/lettuce/LettuceTest.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="130" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/lzb/redis/lettuce/LettuceTest.java</url>
-          <line>23</line>
-          <option name="timeStamp" value="131" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/io/lettuce/lettuce-core/5.3.6.RELEASE/lettuce-core-5.3.6.RELEASE.jar!/io/lettuce/core/RedisChannelHandler.class</url>
@@ -762,6 +700,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/lzb/guava/GuavaTest.java</url>
           <line>36</line>
           <option name="timeStamp" value="139" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/lzb/vthread/TestVThread.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="160" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.ExceptionInInitializerError" package="java.lang" />
